@@ -21,8 +21,8 @@ To add the widget to your page
 
 Add the following parameters, with suitable values
 
-   'f.salesPrice.facet.limit': -1,
-   'f.salesPrice.facet.range.start': 1000.0,
-   'f.salesPrice.facet.range.end': 9999999,
-   'f.salesPrice.facet.range.gap': 50000.0,
+	'f.salesPrice.facet.limit': -1,
+	'f.salesPrice.facet.range.start': 1000.0,
+	'f.salesPrice.facet.range.end': 9999999,
+	'f.salesPrice.facet.range.gap': 50000.0,
 	
