@@ -12,17 +12,17 @@ Add the following to render facet links
 To add the widget to your page
 
 	Manager.addWidget(new AjaxSolr.PriceGroupWidget({
-			id: 'salesPrice',
-         target: '#salesPrice',
-			field: 'salesPrice',
-         fields: ['salesPrice']
-		}));
+		id: 'salesPrice',
+      target: '#salesPrice',
+		field: 'salesPrice',
+      fields: ['salesPrice']
+	}));
 
 
 Add the following parameters, with suitable values
 
-			  'f.salesPrice.facet.limit': -1,
-			  'f.salesPrice.facet.range.start': 1000.0,
-			  'f.salesPrice.facet.range.end': 9999999,
-			  'f.salesPrice.facet.range.gap': 50000.0,
+   'f.salesPrice.facet.limit': -1,
+   'f.salesPrice.facet.range.start': 1000.0,
+   'f.salesPrice.facet.range.end': 9999999,
+   'f.salesPrice.facet.range.gap': 50000.0,
 	
